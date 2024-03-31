@@ -87,7 +87,7 @@ const LoginPage = () => {
               />
             </button>
             <button className="btn btn-circle" onClick={()=>signIn("github",{
-              callbackUrl:"http://localhost:5000/dashboard"
+              callbackUrl:"http://localhost:3000/dashboard"
             })}>
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
