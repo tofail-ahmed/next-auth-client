@@ -4,7 +4,11 @@ import Image from "next/image";
 
 const DashboardPage = async () => {
   const session = await getServerSession(authOptions);
+<<<<<<< HEAD
   // console.log(session);
+=======
+  console.log(session);
+>>>>>>> 0fd1db217a082e9027e562e33844cb234e3aecce
   return (
     <div>
       {
