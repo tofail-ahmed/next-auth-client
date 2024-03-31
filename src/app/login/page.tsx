@@ -57,7 +57,7 @@ const LoginPage = () => {
               <input
                 {...register("password")}
                 type="password"
-                placeholder="Email"
+                placeholder="Password"
                 className="input input-bordered"
                 required
               />
