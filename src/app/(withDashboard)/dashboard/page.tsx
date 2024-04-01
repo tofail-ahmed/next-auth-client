@@ -20,7 +20,7 @@ const DashboardPage = async () => {
       </h1>
       <Image
         className="rounded-full  border-zinc-500 border-spacing-4 border-4 m-2 mx-auto"
-        src={session?.user?.image }
+        src={session?.user?.image || "https://cdn.pixabay.com/photo/2013/07/12/14/36/man-148582_640.png"}
         alt="img"
         width={100}
         height={100}

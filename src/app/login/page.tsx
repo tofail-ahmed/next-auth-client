@@ -94,7 +94,7 @@ const LoginPage = () => {
           <p className="text-center">Or Sign Up Using</p>
           <div className="flex justify-center mb-10 mt-2">
             <button className="btn btn-circle " onClick={()=>signIn("google",{
-              callbackUrl:"http://localhost:3000/dashboard"
+              callbackUrl:"https://next-auth-client.vercel.app/dashboard"
             })} >
               <Image
                 src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
@@ -104,7 +104,7 @@ const LoginPage = () => {
               />
             </button>
             <button className="btn btn-circle" onClick={()=>signIn("github",{
-              callbackUrl:"http://localhost:3000/dashboard"
+              callbackUrl:"https://next-auth-client.vercel.app/dashboard"
             })}>
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
